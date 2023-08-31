@@ -1,14 +1,12 @@
 import React from 'react';
 
-const Filter = ({ filter, handleFilterChange }) => {
-  return (
-    <input
-      type="text"
-      placeholder="Search by name"
-      value={filter}
-      onChange={handleFilterChange}
-    />
-  );
-};
+const Filter = ({ value, onChange }) => (
+  <input
+    type="text"
+    value={value}
+    onChange={onChange}
+    placeholder="Search contacts by name"
+  />
+);
 
 export default Filter;
