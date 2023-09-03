@@ -8,6 +8,4 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <App />
   </React.StrictMode>
 );
-<BrowserRouter basename="/goit-react-hw-02-feedback">
-  <App />
-</BrowserRouter>;
+
