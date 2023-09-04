@@ -41,7 +41,7 @@ class ContactForm extends Component {
           onChange={this.handleChange}
           placeholder="Name"
         />
-        <input
+        <input className='input'
           type="tel"
           name="number"
           pattern="\+?\d{1,4}?[-.\s]?\(?\d{1,3}?\)?[-.\s]?\d{1,4}[-.\s]?\d{1,4}[-.\s]?\d{1,9}"
