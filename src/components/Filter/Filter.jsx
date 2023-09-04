@@ -1,7 +1,8 @@
 import React from 'react';
+import styles from './Filter.module.css'
 
 const Filter = ({ value, onChange }) => (
-  <input
+  <input className={styles.input}
     type="text"
     value={value}
     onChange={onChange}
